@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-11">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="messages" type="long" />
+    </attributes>
+    <nodes>
+      <node id="COVID vaccines" label="COVID vaccines">
+        <attvalues>
+          <attvalue for="0" value="301" />
+        </attvalues>
+      </node>
+      <node id="Early treatment (HCQ, ivermectin)" label="Early treatment (HCQ, ivermectin)">
+        <attvalues>
+          <attvalue for="0" value="76" />
+        </attvalues>
+      </node>
+      <node id="Masks and lockdown" label="Masks and lockdown">
+        <attvalues>
+          <attvalue for="0" value="79" />
+        </attvalues>
+      </node>
+      <node id="Children" label="Children">
+        <attvalues>
+          <attvalue for="0" value="155" />
+        </attvalues>
+      </node>
+      <node id="Health authorities" label="Health authorities">
+        <attvalues>
+          <attvalue for="0" value="114" />
+        </attvalues>
+      </node>
+      <node id="Science and studies" label="Science and studies">
+        <attvalues>
+          <attvalue for="0" value="169" />
+        </attvalues>
+      </node>
+      <node id="Law and politics" label="Law and politics">
+        <attvalues>
+          <attvalue for="0" value="82" />
+        </attvalues>
+      </node>
+      <node id="Lives, congress, events" label="Lives, congress, events">
+        <attvalues>
+          <attvalue for="0" value="443" />
+        </attvalues>
+      </node>
+      <node id="Donations and membership" label="Donations and membership">
+        <attvalues>
+          <attvalue for="0" value="245" />
+        </attvalues>
+      </node>
+      <node id="Integrative and anthroposophic medicine" label="Integrative and anthroposophic medicine">
+        <attvalues>
+          <attvalue for="0" value="78" />
+        </attvalues>
+      </node>
+      <node id="Life and family values" label="Life and family values">
+        <attvalues>
+          <attvalue for="0" value="61" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="COVID vaccines" target="Lives, congress, events" id="0" weight="93" />
+      <edge source="COVID vaccines" target="Children" id="1" weight="91" />
+      <edge source="COVID vaccines" target="Science and studies" id="2" weight="62" />
+      <edge source="COVID vaccines" target="Health authorities" id="3" weight="59" />
+      <edge source="COVID vaccines" target="Donations and membership" id="4" weight="50" />
+      <edge source="COVID vaccines" target="Law and politics" id="5" weight="38" />
+      <edge source="Early treatment (HCQ, ivermectin)" target="Science and studies" id="6" weight="35" />
+      <edge source="Early treatment (HCQ, ivermectin)" target="Lives, congress, events" id="7" weight="27" />
+      <edge source="Masks and lockdown" target="Science and studies" id="8" weight="25" />
+      <edge source="Children" target="Lives, congress, events" id="9" weight="69" />
+      <edge source="Children" target="Donations and membership" id="10" weight="45" />
+      <edge source="Children" target="Health authorities" id="11" weight="39" />
+      <edge source="Children" target="Law and politics" id="12" weight="30" />
+      <edge source="Children" target="Life and family values" id="13" weight="26" />
+      <edge source="Children" target="Science and studies" id="14" weight="25" />
+      <edge source="Health authorities" target="Lives, congress, events" id="15" weight="40" />
+      <edge source="Health authorities" target="Donations and membership" id="16" weight="28" />
+      <edge source="Science and studies" target="Lives, congress, events" id="17" weight="45" />
+      <edge source="Science and studies" target="Donations and membership" id="18" weight="29" />
+      <edge source="Law and politics" target="Lives, congress, events" id="19" weight="31" />
+      <edge source="Lives, congress, events" target="Donations and membership" id="20" weight="213" />
+      <edge source="Lives, congress, events" target="Integrative and anthroposophic medicine" id="21" weight="74" />
+      <edge source="Lives, congress, events" target="Life and family values" id="22" weight="41" />
+      <edge source="Donations and membership" target="Integrative and anthroposophic medicine" id="23" weight="57" />
+      <edge source="Donations and membership" target="Life and family values" id="24" weight="27" />
+    </edges>
+  </graph>
+</gexf>

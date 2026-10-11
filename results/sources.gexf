@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-11">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="kind" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Channel" label="Channel">
+        <attvalues>
+          <attvalue for="0" value="channel" />
+        </attvalues>
+      </node>
+      <node id="Own websites (MPV)" label="Own websites (MPV)" />
+      <node id="YouTube" label="YouTube" />
+      <node id="Other" label="Other" />
+      <node id="Scientific sources" label="Scientific sources" />
+      <node id="Alt video platforms" label="Alt video platforms" />
+      <node id="Mainstream social" label="Mainstream social" />
+      <node id="Alt social (Gettr)" label="Alt social (Gettr)" />
+      <node id="News media" label="News media" />
+      <node id="Government and professional bodies" label="Government and professional bodies" />
+      <node id="Advocacy and health-freedom groups" label="Advocacy and health-freedom groups" />
+      <node id="Telegram" label="Telegram" />
+    </nodes>
+    <edges>
+      <edge source="Channel" target="Own websites (MPV)" id="0" weight="753" />
+      <edge source="Channel" target="YouTube" id="1" weight="115" />
+      <edge source="Channel" target="Other" id="2" weight="77" />
+      <edge source="Channel" target="Scientific sources" id="3" weight="76" />
+      <edge source="Channel" target="Alt video platforms" id="4" weight="72" />
+      <edge source="Channel" target="Mainstream social" id="5" weight="69" />
+      <edge source="Channel" target="Alt social (Gettr)" id="6" weight="66" />
+      <edge source="Channel" target="News media" id="7" weight="17" />
+      <edge source="Channel" target="Government and professional bodies" id="8" weight="11" />
+      <edge source="Channel" target="Advocacy and health-freedom groups" id="9" weight="9" />
+      <edge source="Channel" target="Telegram" id="10" weight="8" />
+    </edges>
+  </graph>
+</gexf>
